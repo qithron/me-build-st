@@ -18,7 +18,7 @@ note:
 
 TERMMOD = Shift + Ctrl
 
-```raw
+```
 Button2 (MidClick)   = paste
 Button3 (RightClick) = copy
 MouseUp              = scroll up
@@ -37,21 +37,7 @@ TERMMOD + K        = scroll up
 TERMMOD + L        = scroll 1 page up
 ```
 
-## TIPS
-
-### Prevent st being upgraded in Gentoo
-
-`/etc/portage/package.mask`
-
-```raw
-x11-terms/st
-```
-
-`/etc/portage/package.unmask`
-
-```raw
-=x11-terms/st-0.8.5
-```
+## Tips
 
 ### Set default font without recompiling
 
